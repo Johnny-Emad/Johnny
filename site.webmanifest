@@ -1,0 +1,21 @@
+{
+  "name": "Johnny Emad — Front-End Developer",
+  "short_name": "Johnny Emad",
+  "description": "Portfolio of Johnny Emad — Junior Front-End Developer & UI Designer",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

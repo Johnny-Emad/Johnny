@@ -1,0 +1,73 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+
+/* =====================
+   RESPONSIVE — Mobile Navigation System
+   Reusable overlay nav for screens ≤ 48em.
+   JS toggles .nav-open on .site-header to open/close.
+   ===================== */
+@media (max-width: 48em) {
+
+  /* ── Fullscreen overlay nav ── */
+  .main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    background-color: rgba(255, 255, 255, 0.97);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Hidden off-screen to the right by default */
+    transform: translateX(100%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    transition: transform 0.45s ease, opacity 0.45s ease, visibility 0.45s ease;
+
+    z-index: 200;
+  }
+
+  /* ── Open state — JS adds .nav-open to .site-header ── */
+  .nav-open .main-nav {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  /* ── Toggle icon swap ── */
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+}
