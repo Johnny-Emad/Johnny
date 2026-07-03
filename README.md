@@ -20,7 +20,7 @@
 
 This is a **personal portfolio website** for Johnny Emad, a Junior Front-End Developer & UI/UX Designer from Egypt. The site serves as a professional online presence to showcase his identity, technical skills, learning goals, and contact information to potential employers, collaborators, and clients.
 
-It is deployed at: [https://johnnyemad.netlify.app/](https://johnnyemad.netlify.app/)
+It is deployed at: [https://johnny-emad.github.io/Johnny/](https://johnny-emad.github.io/Johnny/)
 
 ### Main Features & Functionality
 
@@ -246,7 +246,7 @@ User clicks phone number
 
 | Integration | Details |
 |---|---|
-| **Netlify** | Hosting platform. Site deployed at `https://johnnyemad.netlify.app/` |
+| **Netlify** | Hosting platform. Site deployed at `https://johnny-emad.github.io/Johnny/` |
 | **Google Search Console** | `googlee6a48fb894e0d8e7.html` is the HTML file verification method for GSC ownership |
 | **WhatsApp** | `https://wa.me/201208534347` — direct chat link using the WhatsApp API URL scheme |
 | **Open Graph Protocol** | Facebook, LinkedIn, Discord, WhatsApp link previews via `og:` meta tags |
